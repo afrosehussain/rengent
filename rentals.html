@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rentals  - Rengent</title>
+<link rel="icon" href="rengent.png">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="dist/css/style.css">
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>   
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+</head>
+<style>
+	
+#design{
+  background-color: #fff;
+}
+#desire{
+  font-size: 40px;
+}
+#image {
+	border: 3px solid #9400d3;
+}
+#stuff {
+  border-radius: 15px;
+  text-decoration: none;
+  width: 156px;
+  height: 39px;
+  border: 1px solid #9400d3;
+  background: #ffffff;
+  color: #9400d3;
+ font-family: 'Nunito Sans', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400;
+  text-align: left;
+  padding: 5px;
+}
+#stuff a: hover {
+  border-radius: 15px;
+  width: 156px;
+  height: 39px;
+  border: 1px solid #9400d3;
+  background: #9400d3;
+  color: #fff;
+ font-family: 'Nunito Sans', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400;
+  text-align: left;
+  padding: 5px;
+}
+
+
+
+</style>
+<body>
+	<div id="header"></div>
+	<div class="w3-container" style="padding:128px 16px" id="design">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3 id="desire" style="color:#9400d3 ">We know your desire</h3>
+      <p style="color:#000"><span class="w3-large"><b>An easy way to earn Passive income.</b></span> You should download this Application for a great purpose. Just you have to complete some formalities...! First and foremost just signup using Google. Set your account.
+         In no time, if there is any thing which can be rented, just click some pics, upload it for a reasonable price, and just Chill! Anybody in need might make a deal.
+         <br>
+         <br>
+         <b>Note</b> : Once go through the Community Guidelines Before starting your renting journey.
+       </p>
+      <a href="#rentals" id="stuff"><i class="fa fa-th"></i> View Rental Stuff</a>
+    </div>
+    <div class="w3-col m6">
+    	<br>
+      <img id="image" class="w3-image w3-round-large animated slideInRight" src="desire.jpg" alt="Buildings" width="700" height="394">
+    </div>
+  </div>
+</div>
+<hr>
+ <div class="w3-container" style="padding:128px 16px" id="rentals">
+  <h3 class="w3-center">RENTAL STUFF</h3>
+  <p class="w3-center w3-large">Here is some of the stuff that you may rent </p>
+
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-col l3 m6">
+      <img src="mic.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A microphone">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="ac.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Soundbox">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="drone.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A drone">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="bike.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Vehicles">
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-section">
+    <div class="w3-col l3 m6">
+      <img src="pad.jpg" style="width:100%"  onclick="onClick(this)" class="w3-hover-opacity" alt="Electronics">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="cam.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A camera">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="Building-Materials.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Construction Materials">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="func.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Function Halls">
+    </div>
+  </div>
+</div>
+
+<!-- <!- Modal for full size images on click -->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-small w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div> 
+
+<footer class="site-footer">
+            <div class="container">
+                <div class="site-footer-inner">
+                    <div class="brand footer-brand">
+                        <a href="index.html">
+                            <img width="32" height="32" src="rengent.png">
+                                <title>Rengent</title>
+                                <defs>
+                                    <radialGradient cy="0%" fx="50%" fy="0%" r="100%" id="logo-gradient-footer">
+                                        <stop stop-color="#00A2B8" offset="0%"/>
+                                        <stop stop-color="#00F9D2" offset="100%"/>
+                                    </radialGradient>
+                                </defs>
+                                <path d="M16 32C7.163 32 0 24.837 0 16S7.163 0 16 0s16 7.163 16 16-7.163 16-16 16zm0-10a6 6 0 1 0 0-12 6 6 0 0 0 0 12z" fill="url(#logo-gradient-footer)" fill-rule="evenodd"/>
+                            </svg>
+                        </a>
+                    </div>
+                    <ul class="footer-links list-reset">
+                        <li>
+                            <a href="rentals.html">Rentals</a>
+                        </li>
+                        <li>
+                            <a href="about.html">About us</a>
+                        </li>
+                        <li>
+                            <a href="FAQ.html">FAQ's</a>
+                        </li>
+                    </ul>
+                    <ul class="footer-social-links list-reset">
+                        <li>
+                            <a  target="blank" href="https://www.facebook.com/the.rengent">
+                                <span class="screen-reader-text">Facebook</span>
+                                <img src="facebook-logo.png">
+                                    <path d="M6.023 16L6 9H3V6h3V4c0-2.7 1.672-4 4.08-4 1.153 0 2.144.086 2.433.124v2.821h-1.67c-1.31 0-1.563.623-1.563 1.536V6H13l-1 3H9.28v7H6.023z" fill="#0EB3CE"/>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a target="blank" href="https://www.instagram.com/the.rengent/">
+                                <span class="screen-reader-text">Instagram</span>
+                                <img src="instagram.png">
+                                    <path d="M7.9 7v2.4H12c-.2 1-1.2 3-4 3-2.4 0-4.3-2-4.3-4.4 0-2.4 2-4.4 4.3-4.4 1.4 0 2.3.6 2.8 1.1l1.9-1.8C11.5 1.7 9.9 1 8 1 4.1 1 1 4.1 1 8s3.1 7 7 7c4 0 6.7-2.8 6.7-6.8 0-.5 0-.8-.1-1.2H7.9z" fill="#0EB3CE"/>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="footer-copyright">&copy; 2020 Rengent, all rights reserved</div>
+                </div>
+            </div>
+        </footer>
+<script type="text/javascript">
+	// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+<!--
+</script>
+</body>
+</html>
